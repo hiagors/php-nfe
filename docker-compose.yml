@@ -1,0 +1,18 @@
+php:
+    build: .
+    ports:
+     - "80:80"
+    volumes:
+     - ./www:/var/www/html
+    environment:
+     - ALLOW_OVERRIDE=true
+    links:
+     - mysql
+mysql:
+    image: mysql:5.7
+    volumes:
+     - /var/lib/mysql
+    environment:
+     - MYSQL_ROOT_PASSWORD=docker
+    ports:
+     - "3306:3306"

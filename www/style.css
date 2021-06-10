@@ -1,0 +1,113 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+#container{
+    margin:10px;
+}
+
+.tab{
+    height: 200px;
+    margin: 10px;
+}
+
+#aba1 div {
+    margin: 10px;
+}
+#aba1 div label{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 100px;
+}
+
+#aba1 div input{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 150px;
+}
+
+#aba1 div select{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 155px;
+}
+
+#aba2 div {
+    margin: 10px;
+}
+
+#aba2 div label{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 200px;
+}
+#aba2 div input{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 100px;
+}
+
+#aba5 div {
+    margin: 10px;
+}
+
+#aba5 div label{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 200px;
+}
+#aba5 div input{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 100px;
+}
+
+#aba5 div select{
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    width: 105px;
+}
+
+#abas_menu{
+    padding: 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#abas_menu button{
+    padding: 0;
+    border: none;
+    background: none;
+    height: 40px;
+    color: rgb(10, 165, 236);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#abas_menu button:focus{
+    color: rgb(7, 81, 116);
+
+    border-bottom: 1px solid rgb(7, 81, 116);
+}
+
+#s_buttons_div{
+    
+    padding: 10px;
+    border-top: 1px solid grey;
+}
+#s_buttons_div button{
+    margin-right: 10px;
+}
+
+
