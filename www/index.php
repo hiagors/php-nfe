@@ -14,6 +14,7 @@
         $_SESSION[$variavel] = '';
     }
     
+    
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
         //se houver chamada do tipo post armazena as variaveis do form na session
             foreach (VariaveisGlobais::VARIAVEIS as $variavel){
